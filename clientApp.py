@@ -47,6 +47,6 @@ def predictRoutetext():
 #port = int(os.getenv("PORT"))
 if __name__ == "__main__":
     #app.run(host='0.0.0.0', port=port)
-    app.run(host='0.0.0.0', port=4000, debug=True)
+    #app.run(host='0.0.0.0', port=4000, debug=True)
+    app.run(debug=True)
 
-#My name is John Paul Jones. I live in New York, United States. I love to play baseball.
